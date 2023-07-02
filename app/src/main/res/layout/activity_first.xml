@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="207dp"
+            android:layout_height="201dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/cloudy"
+            app:tint="@color/grrrrreen" />
+
+        <TextView
+            android:id="@+id/mainName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Wait"
+            android:textColor="@color/grrrreen"
+            android:textAlignment="center"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/mainName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainName1"
+            android:layout_centerHorizontal="true"
+            android:text="Weather"
+            android:textColor="@color/grrreen"
+            android:textAlignment="center"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:background="@color/grreen"
+            android:textSize="20dp"
+            android:layout_below="@id/mainName2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:id="@+id/signBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:background="@color/grreen"
+            android:textSize="20dp"
+            android:layout_below="@id/loginBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+</FrameLayout>

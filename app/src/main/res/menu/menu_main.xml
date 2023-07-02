@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_temp"
+        android:icon="@drawable/cloudy"
+        android:title="Weather" />
+
+    <item
+        android:id="@+id/item_dnager"
+        android:icon="@drawable/danger"
+        android:title="Danger" />
+
+    <item
+        android:id="@+id/item_map"
+        android:title="Map"
+        android:icon="@drawable/map" />
+
+    <item
+        android:id="@+id/item_user"
+        android:title="User"
+        android:icon="@drawable/user" />
+
+</menu>
